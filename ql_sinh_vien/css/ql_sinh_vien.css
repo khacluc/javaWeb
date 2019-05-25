@@ -1,0 +1,43 @@
+
+/* Tạo navbar */
+#bar{
+    color: white;
+    font-weight: bold;
+}
+.nar_bar{
+    background: #343a40;
+}
+
+/* Danh sách sinh viên */
+.text_ds_sv{
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    margin: 15px;
+}
+.table1{
+    background: aliceblue;
+    text-align: center;
+    color: #000000a8;
+    font-weight: bold;
+}
+.button{
+    border-radius: 5px;
+    margin: 2px;
+}
+
+/* Thông tin sinh viên */
+.thong_tin_sv{
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    color: #000000a8;
+    margin: 15px;
+}
+.text_title{
+    color: #607d8ba1;
+}
+.text_input{
+    width: 100%;
+    border-bottom: aqua;
+}
