@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/goingay.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- css -->
+    <!-- chay slide hinh anh nha hang -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!-- Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <!-- example -->
+
+    <title>goingay</title>
+</head>
+
+<body>
+    <div>
+        <div class="container-fluid">
+            <div id="head-mobile" class="layout">
+                <div class="head-left">
+                    <a href=""><img src="https://goingay.vn/Content/images/logo.png" alt="goingay"></a>
+                </div>
+                <div class="fb">
+                    <ul>
+                        <li>
+                            <button id="Like" class="btn btn-primary">
+                                <i id="li-ke" class="fa fa-thumbs-up"></i>
+                                Like
+                            </button>
+                        </li>
+                        <li>
+                            <button id="share" class="btn btn-primary">Share</button>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-sm bg-primary navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="trangchu">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Thông báo đặc biệt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Báo giá</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Liên hệ</a>
+                    </li>
+                    <li id="login-signin" class="nav-item">
+                        <div>
+                            <a href="#" class="tab">
+                                <i class="fa fa-sign-in"></i>
+                                <div class="dangnhap">
+
+                                    Đăng nhập
+                                </div>
+                            </a>
+                            <a href="#" class="tab">
+                                <i class="fa fa-lock"></i>
+                                <div class="dangky">
+
+                                    Đăng ký
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <!-- <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100"
+                        src="https://images.goingay.vn/Uploads/temp/estate-c4737caf-7750-4829-a90e-3e90f82337f4.jpg"
+                        alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://images.goingay.vn/Uploads/temp/estate-b9372a2a-67a3-42ad-a967-d215021e2b44.jpg"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://images.goingay.vn/Uploads/temp/estate-caf3401e-b3b6-479a-a080-9b34d2454b74.jpg"
+                        alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://images.goingay.vn/Uploads/temp/estate-cd0c228a-b520-4750-b441-4bfe36693419.jpg"
+                        alt="four slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://images.goingay.vn/Uploads/temp/estate-38025256-f8d2-4774-a4e8-faeca99b4eb1.jpg"
+                        alt="five slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- cac dich vu -->
+        <div class="container" id="main">
+            <div class="box-cacdichvu">
+                <div class="cacdichvu">Các dịch vụ</div>
+                <ul>
+                    <li>
+                        <a href="#" class="item1">
+                            <div>
+                                <img src="https://goingay.vn/Content/images/bat-dong-san.png" alt="bat-dong-san">
+                            </div>
+
+                            <div class="text-item">
+                                <p class="text-tv"> Bất Động Sản</p>
+                                <p class="text-el">Real Estate</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item1">
+                            <div>
+                                <img src="https://goingay.vn/Content/images/dich-vu-xa-hoi.png" alt="dich-vu-xa-hoi">
+
+                            </div>
+                            <div class="text-item">
+                                <p class="text-tv">Dịch vụ xã hội</p>
+                                <p class="text-el">Social services</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item1">
+                            <div>
+                                <img src="https://goingay.vn/Content/images/th-vi-n-nh.png" alt="th-vi-n-nh">
+                            </div>
+                            <div class="text-item">
+                                <p class="text-tv">Thư viện ảnh</p>
+                                <p class="text-el">Photos gallery</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item1">
+                            <div>
+                                <img src="https://goingay.vn/Content/images/s-ki-n-tr-c-tuy-n.png"
+                                    alt="s-ki-n-tr-c-tuy-n">
+                            </div>
+                            <div class="text-item">
+                                <p class="text-tv">Sự kiện trực tuyến</p>
+                                <p class="text-el">Live event</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item1">
+                            <div>
+                                <img src="https://goingay.vn/Content/images/v-n-chuy-n-c-ng-c-ng.png"
+                                    alt="v-n-chuy-n-c-ng-c-ng">
+                            </div>
+                            <div class="text-item">
+                                <p class="text-tv">Vận chuyển công cộng</p>
+                                <p class="text-el">Public transport</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- tintuc -->
+        <div class="container">
+            <div id="tintuc" class="layout">
+                <ul>
+                    <li class="display">
+                        <div>
+                            <a href="#">
+                                <img class="image"
+                                    src="https://images.goingay.vn/Uploads/temp/estate-c2e208ca-6e1f-47d6-a174-28266090acdd.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p class="text-slide">Tổng hợp các dịch vụ xã hội cần thiết tại Hải Phỏng</p>
+                            </a>
+                        </div>
+                        <div>
+                            <button class="click">Xem chi tiết</button>
+                        </div>
+                    </li>
+                    <li class="display">
+                        <div>
+                            <a href="#">
+                                <img class="image"
+                                    src="https://images.goingay.vn/Uploads/temp/estate-6dd1e2a0-7393-4c6d-82bf-ffaa32feb899.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p class="text-slide">Dịch vụ khách sạn tại Hải Phòng</p>
+                            </a>
+                        </div>
+                        <div>
+                            <button class="click">Xem chi tiết</button>
+                        </div>
+                    </li>
+                    <li class="display">
+                        <div>
+                            <a href="#">
+                                <img class="image"
+                                    src="https://images.goingay.vn/Uploads/temp/estate-209cb4fe-44b0-4d59-9f25-ced28fb19d2b.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p class="text-slide">Tổng hợp các sự kiện nổi bật tại Hải Phỏng</p>
+                            </a>
+                        </div>
+                        <div>
+                            <button class="click">Xem chi tiết</button>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div id="congtacvien" class="display">
+            <div class="doi-ngu">
+                <p> ĐỘI NGŨ CỘNG TÁC VIÊN</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-11 col-md-10 col-centered">
+
+                        <div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi"
+                            data-interval="3000">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="carousel-col">
+                                        <img
+                                            src="https://images.goingay.vn/Uploads/temp/estate-fa0884ec-fdd5-4f45-ab4b-8f470488c2e0.jpg" />
+                                        <div class="tu-van">
+                                            <span class="text-name">Lê Tiến Trình</span>
+                                            <span class="text-kn">Kinh nghiệm 5 năm thị trường</span>
+                                            <span class="text-lh">916428905</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-col">
+                                        <img
+                                            src="https://images.goingay.vn/Uploads/temp/estate-5a0dcfea-2446-4995-8560-637b91a4ae7a.jpg" />
+                                        <div class="tu-van">
+                                            <span class="text-name">Nguyễn Thị Minh</span>
+                                            <span class="text-kn">Cộng tác viên</span>
+                                            <span class="text-lh">927247480</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-col">
+                                        <img
+                                            src="https://images.goingay.vn/Uploads/temp/estate-d587a511-a4d7-4194-9c6f-0d00b4d05f50.jpeg" />
+                                        <div class="tu-van">
+                                            <span class="text-name">Phạm Thị Hường</span>
+                                            <span class="text-kn">Kinh nghiệm 8 năm thị trường</span>
+                                            <span class="text-lh">837927688</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-col">
+                                        <img
+                                            src="https://images.goingay.vn/Uploads/temp/estate-9e113ef2-7e03-4217-9e33-171a619d4447.jpg" />
+                                        <div class="tu-van">
+                                            <span class="text-name">Vũ Thùy Trang</span>
+                                            <span class="text-kn">Kinh nghiệm 3 năm thị trường</span>
+                                            <span class="text-lh">935868889</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-col">
+                                        <img
+                                            src="https://images.goingay.vn/Uploads/temp/estate-01b3f266-b549-4f26-86b2-6327663ec1a8.jpg" />
+                                        <div class="tu-van">
+                                            <span class="text-name">Đoàn Duy Phong</span>
+                                            <span class="text-kn">Kinh nghiệm 5 năm thị trường</span>
+                                            <span class="text-lh">815550000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left carousel-control">
+                                <a href="#carousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </div>
+                            <div class="right carousel-control">
+                                <a href="#carousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar -->
+        <div id="index">
+            <div class="container">
+                <div class="navbar navbar-expand-sm navbar-light ">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Quy chế hoạt động</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Điều khoản thỏa thuận</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Quy định đăng tin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Chính sách bảo mật</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Giải quyết tranh chấp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer" class="layout">
+            <div class="container" id="footer_content_layout">
+                <div class="content row">
+                    <div class="content_left col-lg-6 col-6 col-xl-6">
+                        <p class="footer-gn">Công ty TNHH đầu tư và phát triển GOINGAY</p>
+                        <p class="footer-tt">
+                            <i class="fa fa-map-marker"></i>
+                            Trụ sở chính: Số 3/159 Lạch Tray, quận Ngô Quyền, Hải Phòng
+                        </p>
+                        <p class="footer-tt">
+                            <i class="fa fa-phone-square"></i>
+                            0934 234 479
+                        </p>
+                        <p class="footer-tt">
+                            <i class="fa fa-envelope"></i>
+                            lienhe.goingay@gmail.com
+                        </p>
+                    </div>
+                    <div class="content_right col-lg-6 col-6 col-xl-6">
+                        <p class="footer-gp">Giấp phép Mạng xã hội số 08/GP-BTTT của Bộ TT-TT</p>
+                        <p class="footer-nv">được cấp ngày 04/01/2019</p>
+                        <p class="footer-nv">Phụ trách hệ thống: Ông
+                            <b>Nguyễn Tiến Công</b>
+                        </p>
+                        <div class="animation">Muốn tìm dịch vụ xã hội thiết yếu – Hãy tìm trong GOINGAY.vn</div>
+                        <div class="animation">Muốn nhiều người biết dịch vụ của bạn – Hãy tham gia GOINGAY.vn</div>
+                    </div>
+                </div>
+                <hr class="row">
+                <div class="row">
+                    <div id="text-copy" class="content-left col-lg-5 col-5 col-xl-5">
+                        Copyright© 2017 Goingay.vn/Goingay.net
+                    </div>
+                    <div id="text-copy" class="content-right col-lg-7 col-7 col-xl-7">
+                        ® Ghi rõ nguồn "GOINGAY.vn" hoặc “GOINGAY.net” khi phát hành lại ​thông tin từ website này.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script lang="javascript" src="main.js"></script>
+</body>
+
+</html>

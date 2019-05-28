@@ -1,0 +1,544 @@
+*{
+    /* margin-left: auto; */
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+/* container*/
+.container-fluid{
+    margin-left: 40px;
+    height: 100px;
+}
+.container-fluid img{
+    width: 86px;
+    height: 86px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#head-mobile{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+}
+.head-left{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+}
+/* .head-right{
+    display: inline-block;
+    margin-left: 1000px;
+    margin-top: -50px;
+}  */
+/* fb   */
+.fb{
+    width: 200px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -45px;
+    margin-left: 210px;
+}
+#Like{
+    font-weight: bold;
+    font-size: 12px;
+    width: 65px;
+}
+#share{
+    font-weight: bold;
+    font-size: 12px;
+}
+#li-ke{
+    padding-right: 4px;
+}
+.fb li{
+    display: inline-block;
+}
+/* dang nhap */
+.head-right {
+    color: #4e5e6a;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.dangnhap{
+    display: inline;
+   text-decoration: none;
+   color: #4e5e6a;
+   overflow: hidden;
+}
+.dangky{
+    display: inline;
+    text-decoration: none;
+    color: #4e5e6a;
+}
+/* .tab{
+    margin-left: 10px;
+}
+.tab{
+    color: #4e5e6a;
+} */
+.fa {
+    position: relative;
+    
+}
+/* menu*/
+#menu{
+    background: #0072b9;
+    font-size: 14px;
+    width: 100%;
+    height: 60px;
+}
+#menu ul{
+    list-style-type: none;
+    text-align: left;
+    margin-left: 80px;
+    overflow: hidden;
+}
+#menu li{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    line-height: 40px;
+    margin-left: -5px;
+}
+#menu a{
+    text-decoration: none;
+    display: block;
+    color: white;  
+    height: 60px;
+    line-height: 55px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#menu a:hover{
+    background: #ffce00;
+    color: #0072b9;
+}
+/* carousel */
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* cac dich vu*/
+#main {
+    background: white;
+}
+
+#main .cacdichvu{
+    text-align: center;
+    color: #203f49;
+    font-weight: bold;
+    font-size: 30px;
+}
+#main ul{
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+#main li{
+   float: left;
+   width: 20%;
+   padding: 2px;  
+}
+.item1{
+    display: block;
+    position: relative;
+}
+#main img{
+    width: 100%;
+}
+.text-item {
+    position: absolute;
+    bottom: 0;
+    color: white; 
+    width: 100%;
+    height: 100%;
+    background: #0c80c18a;
+}
+.text-tv{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-el{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-item:hover{
+    background: none;
+}
+
+@media only screen and (max-width: 1023px) {
+    .box-cacdichvu ul li{
+        width: 50% !important;
+    }
+}
+
+/* tin tuc */
+#tintuc{
+    background: white;
+}
+#tintuc ul{
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+
+}
+#tintuc li{
+    
+    display: inline-block;
+    width: 360px;
+    height: 107px;
+    border-style: groove;
+   
+}
+.image {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    margin-left: -180px;
+}
+/* thuoc tinh image cua slide */
+.text-slide {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    overflow: visible;
+    margin-left: 154px;
+    text-align: left;
+}
+/* thuoc tinh cua doan van trong slide */
+.click {
+    display: inline-block;
+    position: absolute;
+    margin-top: 58px;
+    margin-left: -10px;
+    font-weight: bold;
+    color: #0051a4;
+    font-size: 11px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+/* thuoc tinh click trong doan van slide */
+.doi-ngu{
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-top: -15px;
+    color: #203f49;
+}
+/* doi ngu */
+#congtacvien img{
+    width: 67px;
+    height: 90px;
+    border-radius: 65px;
+    margin-left: -5px;
+}
+.tu-van{
+    position: absolute;
+    display: inline;
+    margin-left: 15px;
+}
+.text-name{
+    font-size: 14px;
+    font-weight: bold;
+    color: #203f49;
+    float: left;
+}
+.text-kn{
+    font-size: 14px;
+    color: #79869a;
+    float: left;
+}
+.text-lh{
+    font-size: 14px;
+    font-weight: bold;
+    color: #c3be08;
+    float: left;
+}
+.carousel-control.left{
+    position: relative;
+    /* border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    margin-top: 25px;
+    margin-left: -31px!important;
+    position: absolute; */
+}
+.glyphicon-chevron-left{
+    width: 32px!important;
+    height: 30px!important;
+    margin-top: -54px!important;
+    margin-left: -135px!important;
+    color: beige!important;
+    background: #8080809e;
+    border-radius: 55px;
+}
+.glyphicon-chevron-right{
+    background: #8080809e;
+    border-radius: 55px;
+    margin-top: -54px!important;
+    margin-right: -850px!important;
+
+}
+/* display */
+#index{
+    background: #ffce00;
+}
+#index .navbar-nav{
+    list-style: none;
+    text-decoration: none;
+}
+#index .nav-item{
+    margin: 0px 10px;
+}
+#index .nav-link{
+    color: #203f49 !important;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none !important;
+}
+/* footer */
+#footer{
+    background: #0072b9;
+}
+.footer-gn{   
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffce00;
+    line-height: 20px;
+    margin: 10px 0px;
+}
+.footer-tt{  
+    color: white;
+    font-size: 14px;
+}
+.footer-gp{
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+.footer-nv{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+@keyframes animation{
+    0%{
+        color: red;
+    }
+    50%{
+        color: yellow;
+    }
+    100%{
+        color: white;
+    }
+}
+.animation{
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+hr{
+    background: white;
+}
+#text-copy{
+    color: white;
+    opacity: 0.65;
+    font-size: 13px;
+    height: 30px;
+}
+/* slide show */
+ .col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.carousel-control { 
+    width: 8%;
+    width: 0px;
+}
+.carousel-control.left,
+.carousel-control.right { 
+    margin-right: 40px;
+    margin-left: 32px; 
+    background-image: none;
+    opacity: 1;
+    position: relative;
+}
+.carousel-control > a > span {
+    color: white;
+      font-size: 29px !important;
+}
+
+.carousel-col { 
+    position: relative; 
+    border-radius: 72px;
+    width: 210px;
+    height: 90px;
+    background: white;
+    min-height: 1px; 
+    padding: 5px; 
+    float: left;
+ }
+
+ .active > div { display:none; }
+ .active > div:first-child { display:block; } 
+
+/*xs*/
+@media (max-width: 767px) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { left: 50%; }
+    .carousel-inner .next        { left:  50%; }
+    .carousel-inner .prev		     { left: -50%; }
+  .carousel-col                { width: 50%; }
+    .active > div:first-child + div { display:block; }
+}
+
+/*sm*/
+ @media (min-width: 768px) and (max-width: 991px) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { left: 50%; }
+    .carousel-inner .next        { left:  50%; }
+    .carousel-inner .prev		     { left: -50%; }
+  .carousel-col                { width: 50%; }
+    .active > div:first-child + div { display:block; }
+} 
+
+/*md*/
+ @media (min-width: 992px) and (max-width: 1199px) {
+  .carousel-inner .active.left { left: -33%; }
+  .carousel-inner .active.right { left: 33%; }
+    .carousel-inner .next        { left:  33%; }
+    .carousel-inner .prev		     { left: -33%; }
+  .carousel-col                { width: 33%; }
+    .active > div:first-child + div { display:block; }
+  .active > div:first-child + div + div { display:block; }
+} 
+
+/*lg*/
+ @media (min-width: 1200px) {
+  .carousel-inner .active.left { left: -25%; }
+  .carousel-inner .active.right{ left:  25%; }
+    .carousel-inner .next        { left:  25%; }
+    .carousel-inner .prev		     { left: -25%; }
+  .carousel-col                { width: 25%; }
+    .active > div:first-child + div { display:block; }
+  .active > div:first-child + div + div { display:block; }
+    .active > div:first-child + div + div + div { display:block; }
+} 
+/* thuc hien css doi ngu nv */
+#congtacvien{
+    background: #f0f5f9;
+    width: 100%;
+    height: 200px;
+}
+/* navbar  */
+@media screen and (max-width: 768px) {
+    nav.navbar.navbar-expand-sm.bg-primary.navbar-light {
+        background: transparent!important;
+    }
+  }
+  .navbar-collapse.in{
+      background: #337ab7c9;
+  }
+
+  
+  .navbar-light .navbar-toggler{
+      
+    background: #007bff;
+    margin-left: 300px;
+
+  }
+  .navbar{     
+    margin-bottom: 0px !important;
+    min-height: 0px !important;
+    padding: 0px 0px !important;
+  }
+  /* .navbar-nav{
+      margin-left: 80px !important;
+  } */
+  #trangchu{
+      margin-left: 80px;
+  }
+  .nav-link{
+      font-size: 14px;
+      font-weight: bold;
+      color: white !important;
+      padding-left: 10px !important;
+  }
+  a.nav-link:hover{
+      background: #ffce00;
+      color: #007bff;
+  }
+  #login-signin{   
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -60px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .tab{     
+    color: #4e5e6a;
+    padding: 15px;
+  }
+  @media screen and (max-width: 768px){
+    .navbar-collapse.in{
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        top: 27px;
+        z-index: 9;
+        background: linear-gradient(201deg, rgb(17, 127, 213), rgb(0, 38, 163));
+    }
+    .nav-link{
+        margin-left: auto;
+        border-bottom: solid;
+        border-width: 1px;
+
+    }
+    #trangchu{
+        margin-left: auto;
+    }
+    #login-signin{
+        position: relative;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .tab{
+        color: white;
+    }
+    .dangnhap{
+        color: white;
+    }
+    .dangky{
+        color: white;
+    }
+ }
+  
